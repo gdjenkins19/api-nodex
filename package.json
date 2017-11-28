@@ -1,0 +1,41 @@
+{
+  "name": "api-nodex",
+  "version": "1.0.0",
+  "description": "Playground for API Node Express NodeUnit Mysql Mongo Swagger",
+  "main": "index.js",
+  "scripts": {
+    "run": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdjenkins19/api-nodex.git"
+  },
+  "keywords": [
+    "API",
+    "Node",
+    "Express",
+    "NodeUnit",
+    "Mysql",
+    "Mongo",
+    "Swagger"
+  ],
+  "author": "Gary Dean Jenkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdjenkins19/api-nodex/issues"
+  },
+  "homepage": "https://github.com/gdjenkins19/api-nodex#readme",
+  "dependencies": {
+    "eslint": "^4.11.0",
+    "express": "^4.16.2",
+    "install": "^0.10.2",
+    "mongodb": "^2.2.33",
+    "mysql": "^2.15.0",
+    "npm": "^5.5.1",
+    "swagger-jsdoc": "^1.9.7"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.11.2"
+  }
+}
